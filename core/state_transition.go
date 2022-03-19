@@ -74,9 +74,10 @@ type Message interface {
 // ExecutionResult includes all output after executing given evm
 // message no matter the execution itself is successful or not.
 type ExecutionResult struct {
-	UsedGas    uint64 // Total used gas but include the refunded gas
-	Err        error  // Any error encountered during the execution(listed in core/vm/errors.go)
-	ReturnData []byte // Returned data from evm(function result or data supplied with revert opcode)
+	UsedGas         uint64 // Total used gas but include the refunded gas
+	Err             error  // Any error encountered during the execution(listed in core/vm/errors.go)
+	ReturnData      []byte // Returned data from evm(function result or data supplied with revert opcode)
+	ContractAddress common.Address
 }
 
 // Unwrap returns the internal evm error which allows us for further
@@ -263,11 +264,12 @@ func (st *StateTransition) TransitionDb() (*ExecutionResult, error) {
 		st.state.PrepareAccessList(msg.From(), msg.To(), vm.ActivePrecompiles(rules), msg.AccessList())
 	}
 	var (
-		ret   []byte
-		vmerr error // vm errors do not effect consensus and are therefore not assigned to err
+		ret          []byte
+		vmerr        error // vm errors do not effect consensus and are therefore not assigned to err
+		contractAddr common.Address
 	)
 	if contractCreation {
-		ret, _, st.gas, vmerr = st.evm.Create(sender, st.data, st.gas, st.value)
+		ret, contractAddr, st.gas, vmerr = st.evm.Create(sender, st.data, st.gas, st.value)
 	} else {
 		// Increment the nonce for the next transaction
 		st.state.SetNonce(msg.From(), st.state.GetNonce(sender.Address())+1)
@@ -277,9 +279,10 @@ func (st *StateTransition) TransitionDb() (*ExecutionResult, error) {
 	st.state.AddBalance(st.evm.Context.Coinbase, new(big.Int).Mul(new(big.Int).SetUint64(st.gasUsed()), st.gasPrice))
 
 	return &ExecutionResult{
-		UsedGas:    st.gasUsed(),
-		Err:        vmerr,
-		ReturnData: ret,
+		UsedGas:         st.gasUsed(),
+		Err:             vmerr,
+		ReturnData:      ret,
+		ContractAddress: contractAddr,
 	}, nil
 }
 
