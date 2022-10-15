@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arcology-network/evm/rpc"
+	"github.com/HPISTechnologies/evm/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

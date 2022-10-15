@@ -24,14 +24,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/prque"
-	"github.com/arcology-network/evm/core/state"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/event"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/metrics"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/prque"
+	"github.com/HPISTechnologies/evm/core/state"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/event"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 const (

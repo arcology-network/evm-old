@@ -20,9 +20,9 @@ import (
 	"hash"
 	"sync/atomic"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // Config are the configuration options for the Interpreter

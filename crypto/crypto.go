@@ -30,9 +30,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/state"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

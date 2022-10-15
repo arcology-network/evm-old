@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/common/mclock"
-	"github.com/arcology-network/evm/common/prque"
+	"github.com/HPISTechnologies/evm/common/mclock"
+	"github.com/HPISTechnologies/evm/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

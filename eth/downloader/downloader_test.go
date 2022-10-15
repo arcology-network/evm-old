@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	ethereum "github.com/arcology-network/evm"
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/rawdb"
-	"github.com/arcology-network/evm/core/state/snapshot"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/eth/protocols/eth"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/event"
-	"github.com/arcology-network/evm/trie"
+	ethereum "github.com/HPISTechnologies/evm"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/core/state/snapshot"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/eth/protocols/eth"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/event"
+	"github.com/HPISTechnologies/evm/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

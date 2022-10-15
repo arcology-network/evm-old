@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/monaco"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/monaco"
+	"github.com/HPISTechnologies/evm/params"
 	"github.com/holiman/uint256"
 )
 

@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/arcology-network/evm/core/vm"
+	"github.com/HPISTechnologies/evm/core/vm"
 )
 
 func TestVM(t *testing.T) {

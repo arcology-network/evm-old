@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/arcology-network/evm/core/asm"
+	"github.com/HPISTechnologies/evm/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

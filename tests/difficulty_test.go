@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 var (

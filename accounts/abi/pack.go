@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/math"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/math"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

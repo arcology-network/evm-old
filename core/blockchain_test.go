@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/consensus"
-	"github.com/arcology-network/evm/consensus/ethash"
-	"github.com/arcology-network/evm/core/rawdb"
-	"github.com/arcology-network/evm/core/state"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/core/vm"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/params"
-	"github.com/arcology-network/evm/trie"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/consensus"
+	"github.com/HPISTechnologies/evm/consensus/ethash"
+	"github.com/HPISTechnologies/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/core/state"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/core/vm"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/params"
+	"github.com/HPISTechnologies/evm/trie"
 )
 
 // So we can deterministically seed different blockchains
@@ -1429,7 +1429,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/arcology-network/evm/pull/15941
+// https://github.com/HPISTechnologies/evm/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()
@@ -1692,8 +1692,8 @@ func TestIncompleteAncientReceiptChainInsertion(t *testing.T) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//  - https://github.com/arcology-network/evm/issues/18977
-//  - https://github.com/arcology-network/evm/pull/18988
+//  - https://github.com/HPISTechnologies/evm/issues/18977
+//  - https://github.com/HPISTechnologies/evm/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

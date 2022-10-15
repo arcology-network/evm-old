@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

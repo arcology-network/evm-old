@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arcology-network/evm/event"
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/event"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 // Msg defines the structure of a p2p message.

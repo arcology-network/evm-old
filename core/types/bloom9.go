@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/arcology-network/evm/common/hexutil"
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/crypto"
 )
 
 type bytesBacked interface {

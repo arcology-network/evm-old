@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/common/mclock"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/p2p/netutil"
+	"github.com/HPISTechnologies/evm/common/mclock"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/netutil"
 )
 
 const (

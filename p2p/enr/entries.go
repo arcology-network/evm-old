@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 // Entry is implemented by known node record entry types.

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

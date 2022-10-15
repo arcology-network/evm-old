@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/arcology-network/evm/eth/tracers/internal/tracers"
+	"github.com/HPISTechnologies/evm/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

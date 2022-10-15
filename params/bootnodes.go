@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/arcology-network/evm/common"
+import "github.com/HPISTechnologies/evm/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

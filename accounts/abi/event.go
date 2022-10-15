@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

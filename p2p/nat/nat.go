@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

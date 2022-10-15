@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/arcology-network/evm/common/bitutil"
-	"github.com/arcology-network/evm/light"
+	"github.com/HPISTechnologies/evm/common/bitutil"
+	"github.com/HPISTechnologies/evm/light"
 )
 
 const (

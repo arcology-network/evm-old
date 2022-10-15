@@ -12,8 +12,8 @@ import (
 	"io"
 	"math/big"
 
-	cloudflare "github.com/arcology-network/evm/crypto/bn256/cloudflare"
-	google "github.com/arcology-network/evm/crypto/bn256/google"
+	cloudflare "github.com/HPISTechnologies/evm/crypto/bn256/cloudflare"
+	google "github.com/HPISTechnologies/evm/crypto/bn256/google"
 	"github.com/consensys/gnark-crypto/ecc/bn254"
 )
 

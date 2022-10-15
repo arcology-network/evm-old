@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/arcology-network/evm/accounts/abi"
-	"github.com/arcology-network/evm/accounts/abi/bind"
-	"github.com/arcology-network/evm/accounts/keystore"
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/accounts/abi"
+	"github.com/HPISTechnologies/evm/accounts/abi/bind"
+	"github.com/HPISTechnologies/evm/accounts/keystore"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/types"
 )
 
 // Signer is an interface defining the callback when a contract requires a

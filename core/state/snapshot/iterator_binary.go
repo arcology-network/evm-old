@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

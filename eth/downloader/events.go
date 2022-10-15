@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/arcology-network/evm/core/types"
+import "github.com/HPISTechnologies/evm/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

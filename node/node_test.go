@@ -28,10 +28,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/p2p"
-	"github.com/arcology-network/evm/rpc"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/HPISTechnologies/evm/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/math"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/math"
 	"github.com/holiman/uint256"
 )
 

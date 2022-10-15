@@ -19,11 +19,11 @@ package core
 import (
 	"fmt"
 
-	"github.com/arcology-network/evm/consensus"
-	"github.com/arcology-network/evm/core/state"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/params"
-	"github.com/arcology-network/evm/trie"
+	"github.com/HPISTechnologies/evm/consensus"
+	"github.com/HPISTechnologies/evm/core/state"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/params"
+	"github.com/HPISTechnologies/evm/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

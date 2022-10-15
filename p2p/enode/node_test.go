@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/arcology-network/evm/p2p/enr"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/p2p/enr"
+	"github.com/HPISTechnologies/evm/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

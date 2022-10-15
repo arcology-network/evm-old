@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/ethdb/dbtest"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

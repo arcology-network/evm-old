@@ -28,7 +28,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 var (

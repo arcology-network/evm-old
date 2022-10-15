@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/core/forkid"
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/core/forkid"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 // ethEntry is the "eth" ENR entry which advertises eth protocol

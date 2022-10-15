@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/arcology-network/evm/p2p"
+	"github.com/HPISTechnologies/evm/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

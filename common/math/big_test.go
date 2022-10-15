@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

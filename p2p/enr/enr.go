@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

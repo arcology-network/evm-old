@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 func init() {

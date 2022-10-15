@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

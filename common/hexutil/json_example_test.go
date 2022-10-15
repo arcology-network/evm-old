@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/common/hexutil"
 )
 
 type MyType [5]byte

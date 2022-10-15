@@ -26,7 +26,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 	"github.com/dop251/goja"
 )
 

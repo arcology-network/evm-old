@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/common/mclock"
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/common/mclock"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 const (

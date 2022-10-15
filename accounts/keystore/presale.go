@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/arcology-network/evm/accounts"
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/accounts"
+	"github.com/HPISTechnologies/evm/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

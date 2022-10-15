@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

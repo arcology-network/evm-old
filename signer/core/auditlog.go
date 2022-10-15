@@ -20,10 +20,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/hexutil"
-	"github.com/arcology-network/evm/internal/ethapi"
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/internal/ethapi"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 type AuditLogger struct {

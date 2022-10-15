@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/internal/utesting"
-	"github.com/arcology-network/evm/p2p/discover/v5wire"
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/p2p/netutil"
+	"github.com/HPISTechnologies/evm/internal/utesting"
+	"github.com/HPISTechnologies/evm/p2p/discover/v5wire"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

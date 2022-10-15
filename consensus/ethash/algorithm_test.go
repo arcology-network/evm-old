@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/hexutil"
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

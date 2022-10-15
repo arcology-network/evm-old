@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/arcology-network/evm/p2p"
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/p2p/enr"
-	"github.com/arcology-network/evm/rpc"
+	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/enr"
+	"github.com/HPISTechnologies/evm/rpc"
 )
 
 // NoopService is the service that does not do anything

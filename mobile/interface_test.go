@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 func TestInterfaceGetSet(t *testing.T) {

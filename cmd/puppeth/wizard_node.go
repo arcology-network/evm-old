@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arcology-network/evm/accounts/keystore"
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/accounts/keystore"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

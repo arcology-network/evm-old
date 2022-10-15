@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/hexutil"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 var (

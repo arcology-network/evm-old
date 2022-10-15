@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/params"
-	"github.com/arcology-network/evm/rpc"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/params"
+	"github.com/HPISTechnologies/evm/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 // node represents a host on the network.

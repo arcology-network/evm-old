@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

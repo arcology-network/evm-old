@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/HPISTechnologies/evm/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

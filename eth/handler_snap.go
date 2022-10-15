@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/eth/protocols/snap"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/eth/protocols/snap"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

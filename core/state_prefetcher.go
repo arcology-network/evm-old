@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/arcology-network/evm/consensus"
-	"github.com/arcology-network/evm/core/state"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/core/vm"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/consensus"
+	"github.com/HPISTechnologies/evm/core/state"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/core/vm"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

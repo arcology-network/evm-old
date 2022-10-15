@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/eth/protocols/eth"
-	"github.com/arcology-network/evm/internal/utesting"
-	"github.com/arcology-network/evm/p2p"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/eth/protocols/eth"
+	"github.com/HPISTechnologies/evm/internal/utesting"
+	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/HPISTechnologies/evm/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

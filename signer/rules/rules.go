@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arcology-network/evm/internal/ethapi"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/signer/core"
-	"github.com/arcology-network/evm/signer/rules/deps"
-	"github.com/arcology-network/evm/signer/storage"
+	"github.com/HPISTechnologies/evm/internal/ethapi"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/signer/core"
+	"github.com/HPISTechnologies/evm/signer/rules/deps"
+	"github.com/HPISTechnologies/evm/signer/storage"
 	"github.com/dop251/goja"
 )
 

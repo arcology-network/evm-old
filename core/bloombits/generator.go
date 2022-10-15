@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/core/types"
 )
 
 var (

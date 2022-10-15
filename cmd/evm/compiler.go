@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/arcology-network/evm/cmd/evm/internal/compiler"
+	"github.com/HPISTechnologies/evm/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

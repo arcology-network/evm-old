@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/rawdb"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/metrics"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/HPISTechnologies/evm/rlp"
 	"github.com/VictoriaMetrics/fastcache"
 )
 

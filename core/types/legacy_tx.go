@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.

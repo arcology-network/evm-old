@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/rawdb"
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

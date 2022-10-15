@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/arcology-network/evm/cmd/utils"
-	"github.com/arcology-network/evm/console"
-	"github.com/arcology-network/evm/node"
-	"github.com/arcology-network/evm/rpc"
+	"github.com/HPISTechnologies/evm/cmd/utils"
+	"github.com/HPISTechnologies/evm/console"
+	"github.com/HPISTechnologies/evm/node"
+	"github.com/HPISTechnologies/evm/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

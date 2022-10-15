@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/arcology-network/evm/common/hexutil"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 	"github.com/davecgh/go-spew/spew"
 )
 

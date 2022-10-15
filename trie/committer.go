@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/crypto"
 	"golang.org/x/crypto/sha3"
 )
 

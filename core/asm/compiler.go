@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/core/vm"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/core/vm"
 )
 
 // Compiler contains information about the parsed source

@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/p2p/enr"
 )
 
 var (

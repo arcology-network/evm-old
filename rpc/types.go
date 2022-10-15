@@ -23,8 +23,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)

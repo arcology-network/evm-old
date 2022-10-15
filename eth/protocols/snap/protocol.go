@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/state/snapshot"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/state/snapshot"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 // Constants to match up protocol versions and messages

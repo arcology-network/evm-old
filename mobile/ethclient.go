@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/ethclient"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

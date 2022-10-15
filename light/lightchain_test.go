@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/consensus/ethash"
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/core/rawdb"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/consensus/ethash"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 // So we can deterministically seed different blockchains

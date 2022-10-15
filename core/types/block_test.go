@@ -23,11 +23,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/params"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/params"
+	"github.com/HPISTechnologies/evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

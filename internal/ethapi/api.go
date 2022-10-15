@@ -25,25 +25,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arcology-network/evm/accounts"
-	"github.com/arcology-network/evm/accounts/abi"
-	"github.com/arcology-network/evm/accounts/keystore"
-	"github.com/arcology-network/evm/accounts/scwallet"
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/hexutil"
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/consensus/clique"
-	"github.com/arcology-network/evm/consensus/ethash"
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/core/state"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/core/vm"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/p2p"
-	"github.com/arcology-network/evm/params"
-	"github.com/arcology-network/evm/rlp"
-	"github.com/arcology-network/evm/rpc"
+	"github.com/HPISTechnologies/evm/accounts"
+	"github.com/HPISTechnologies/evm/accounts/abi"
+	"github.com/HPISTechnologies/evm/accounts/keystore"
+	"github.com/HPISTechnologies/evm/accounts/scwallet"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/consensus/clique"
+	"github.com/HPISTechnologies/evm/consensus/ethash"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/core/state"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/core/vm"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/HPISTechnologies/evm/params"
+	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/HPISTechnologies/evm/rpc"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/tyler-smith/go-bip39"
 )
@@ -426,7 +426,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args SendTxArgs
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/arcology-network/evm/wiki/Management-APIs#personal_sign
+// https://github.com/HPISTechnologies/evm/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -454,7 +454,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/arcology-network/evm/wiki/Management-APIs#personal_ecRecover
+// https://github.com/HPISTechnologies/evm/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

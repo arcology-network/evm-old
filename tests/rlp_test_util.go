@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

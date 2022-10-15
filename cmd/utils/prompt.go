@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/arcology-network/evm/console/prompt"
+	"github.com/HPISTechnologies/evm/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

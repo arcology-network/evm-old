@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/p2p"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

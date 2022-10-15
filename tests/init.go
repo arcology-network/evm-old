@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 // Forks table defines supported forks and their chain config.

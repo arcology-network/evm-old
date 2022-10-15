@@ -27,13 +27,13 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/arcology-network/evm/cmd/utils"
-	"github.com/arcology-network/evm/eth/catalyst"
-	"github.com/arcology-network/evm/eth/ethconfig"
-	"github.com/arcology-network/evm/internal/ethapi"
-	"github.com/arcology-network/evm/metrics"
-	"github.com/arcology-network/evm/node"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/cmd/utils"
+	"github.com/HPISTechnologies/evm/eth/catalyst"
+	"github.com/HPISTechnologies/evm/eth/ethconfig"
+	"github.com/HPISTechnologies/evm/internal/ethapi"
+	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/HPISTechnologies/evm/node"
+	"github.com/HPISTechnologies/evm/params"
 	"github.com/naoina/toml"
 )
 

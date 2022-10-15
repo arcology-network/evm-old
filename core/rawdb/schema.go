@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/metrics"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

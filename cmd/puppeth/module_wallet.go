@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

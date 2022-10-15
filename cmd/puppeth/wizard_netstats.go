@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/log"
 	"github.com/olekukonko/tablewriter"
 )
 

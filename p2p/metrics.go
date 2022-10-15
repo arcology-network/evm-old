@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/arcology-network/evm/metrics"
+	"github.com/HPISTechnologies/evm/metrics"
 )
 
 const (

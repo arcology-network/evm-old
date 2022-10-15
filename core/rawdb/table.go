@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/arcology-network/evm/ethdb"
+	"github.com/HPISTechnologies/evm/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

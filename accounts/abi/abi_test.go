@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/crypto"
 )
 
 const jsondata = `

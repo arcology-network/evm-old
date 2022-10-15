@@ -25,9 +25,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/trie"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/trie"
 	"golang.org/x/crypto/sha3"
 )
 

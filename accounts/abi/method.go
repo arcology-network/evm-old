@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

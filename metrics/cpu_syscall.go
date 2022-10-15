@@ -21,7 +21,7 @@ package metrics
 import (
 	"syscall"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

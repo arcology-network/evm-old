@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

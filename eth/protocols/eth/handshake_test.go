@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/forkid"
-	"github.com/arcology-network/evm/p2p"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/forkid"
+	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

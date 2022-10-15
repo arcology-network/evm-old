@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arcology-network/evm/accounts/abi/bind"
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/contracts/checkpointoracle"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/accounts/abi/bind"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/contracts/checkpointoracle"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

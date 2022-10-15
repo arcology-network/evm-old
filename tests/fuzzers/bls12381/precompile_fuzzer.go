@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/vm"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/vm"
 )
 
 const (

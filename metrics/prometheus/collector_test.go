@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/metrics"
+	"github.com/HPISTechnologies/evm/metrics"
 )
 
 func TestMain(m *testing.M) {

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 const (

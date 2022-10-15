@@ -26,11 +26,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/core/forkid"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/params"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/core/forkid"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/params"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 type Chain struct {

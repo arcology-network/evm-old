@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/math"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/crypto/blake2b"
-	"github.com/arcology-network/evm/crypto/bls12381"
-	"github.com/arcology-network/evm/crypto/bn256"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/crypto/blake2b"
+	"github.com/HPISTechnologies/evm/crypto/bls12381"
+	"github.com/HPISTechnologies/evm/crypto/bn256"
+	"github.com/HPISTechnologies/evm/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

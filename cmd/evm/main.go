@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/arcology-network/evm/cmd/evm/internal/t8ntool"
-	"github.com/arcology-network/evm/cmd/utils"
-	"github.com/arcology-network/evm/internal/flags"
+	"github.com/HPISTechnologies/evm/cmd/evm/internal/t8ntool"
+	"github.com/HPISTechnologies/evm/cmd/utils"
+	"github.com/HPISTechnologies/evm/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

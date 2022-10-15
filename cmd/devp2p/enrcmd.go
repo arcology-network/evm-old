@@ -28,9 +28,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/p2p/enr"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/enr"
+	"github.com/HPISTechnologies/evm/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

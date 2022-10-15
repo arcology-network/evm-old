@@ -19,10 +19,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/rlp"
-	"github.com/arcology-network/evm/trie"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/HPISTechnologies/evm/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

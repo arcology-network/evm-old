@@ -26,11 +26,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/metrics"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/HPISTechnologies/evm/params"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

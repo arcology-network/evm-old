@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/rawdb"
-	"github.com/arcology-network/evm/eth/downloader"
-	"github.com/arcology-network/evm/light"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/eth/downloader"
+	"github.com/HPISTechnologies/evm/light"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

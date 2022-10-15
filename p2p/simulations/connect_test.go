@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"github.com/arcology-network/evm/node"
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/p2p/simulations/adapters"
+	"github.com/HPISTechnologies/evm/node"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

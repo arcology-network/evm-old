@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 func TestPairingExpected(t *testing.T) {

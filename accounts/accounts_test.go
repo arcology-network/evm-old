@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/common/hexutil"
 )
 
 func TestTextHash(t *testing.T) {

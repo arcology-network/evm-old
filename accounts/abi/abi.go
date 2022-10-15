@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/crypto"
 )
 
 // The ABI holds information about a contract's context and available

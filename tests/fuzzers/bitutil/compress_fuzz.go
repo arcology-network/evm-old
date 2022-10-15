@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/arcology-network/evm/common/bitutil"
+	"github.com/HPISTechnologies/evm/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

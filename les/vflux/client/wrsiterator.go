@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/arcology-network/evm/les/utils"
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/p2p/nodestate"
+	"github.com/HPISTechnologies/evm/les/utils"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

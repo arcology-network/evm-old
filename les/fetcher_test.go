@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/consensus/ethash"
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/core/rawdb"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/consensus/ethash"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

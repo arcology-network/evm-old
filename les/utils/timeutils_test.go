@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/common/mclock"
+	"github.com/HPISTechnologies/evm/common/mclock"
 )
 
 func TestUpdateTimer(t *testing.T) {

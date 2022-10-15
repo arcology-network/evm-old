@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/arcology-network/evm"
-	"github.com/arcology-network/evm/accounts"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/crypto"
+	ethereum "github.com/HPISTechnologies/evm"
+	"github.com/HPISTechnologies/evm/accounts"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

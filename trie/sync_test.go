@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/ethdb/memorydb"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/ethdb/memorydb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

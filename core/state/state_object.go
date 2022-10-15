@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/metrics"
-	"github.com/arcology-network/evm/rlp"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/HPISTechnologies/evm/rlp"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/consensus"
-	"github.com/arcology-network/evm/consensus/ethash"
-	"github.com/arcology-network/evm/core/rawdb"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/core/vm"
-	"github.com/arcology-network/evm/ethdb"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/consensus"
+	"github.com/HPISTechnologies/evm/consensus/ethash"
+	"github.com/HPISTechnologies/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/core/vm"
+	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

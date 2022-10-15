@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/arcology-network/evm/common/mclock"
-	"github.com/arcology-network/evm/les/utils"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/common/mclock"
+	"github.com/HPISTechnologies/evm/les/utils"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/core/types"
 	"github.com/holiman/uint256"
 )
 

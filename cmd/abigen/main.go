@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/arcology-network/evm/accounts/abi"
-	"github.com/arcology-network/evm/accounts/abi/bind"
-	"github.com/arcology-network/evm/cmd/utils"
-	"github.com/arcology-network/evm/common/compiler"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/internal/flags"
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/accounts/abi"
+	"github.com/HPISTechnologies/evm/accounts/abi/bind"
+	"github.com/HPISTechnologies/evm/cmd/utils"
+	"github.com/HPISTechnologies/evm/common/compiler"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/internal/flags"
+	"github.com/HPISTechnologies/evm/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

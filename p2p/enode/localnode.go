@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/p2p/enr"
-	"github.com/arcology-network/evm/p2p/netutil"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/p2p/enr"
+	"github.com/HPISTechnologies/evm/p2p/netutil"
 )
 
 const (

@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/internal/utesting"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/internal/utesting"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 //var faucetAddr = common.HexToAddress("0x71562b71999873DB5b286dF957af199Ec94617F7")

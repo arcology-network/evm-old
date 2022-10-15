@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/accounts"
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/accounts"
+	"github.com/HPISTechnologies/evm/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
 )

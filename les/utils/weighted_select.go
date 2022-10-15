@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 type (

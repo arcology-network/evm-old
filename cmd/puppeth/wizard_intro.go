@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

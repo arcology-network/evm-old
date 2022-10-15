@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arcology-network/evm/common/hexutil"
-	"github.com/arcology-network/evm/rpc"
+	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

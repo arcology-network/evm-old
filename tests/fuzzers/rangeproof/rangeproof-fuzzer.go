@@ -23,9 +23,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/ethdb/memorydb"
-	"github.com/arcology-network/evm/trie"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/ethdb/memorydb"
+	"github.com/HPISTechnologies/evm/trie"
 )
 
 type kv struct {

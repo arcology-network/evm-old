@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/arcology-network/evm/node"
+	"github.com/HPISTechnologies/evm/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

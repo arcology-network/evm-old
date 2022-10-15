@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/arcology-network/evm/internal/cmdtest"
+	"github.com/HPISTechnologies/evm/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
 )
 

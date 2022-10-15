@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/arcology-network/evm/crypto"
+	ethcrypto "github.com/HPISTechnologies/evm/crypto"
 )
 
 var (

@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 // Enode represents a host on the network.

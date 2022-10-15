@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/arcology-network/evm/common/bitutil"
-	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/HPISTechnologies/evm/common/bitutil"
+	"github.com/HPISTechnologies/evm/core/rawdb"
 )
 
 const (

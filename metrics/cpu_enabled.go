@@ -19,7 +19,7 @@
 package metrics
 
 import (
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

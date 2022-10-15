@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/arcology-network/evm"
-	"github.com/arcology-network/evm/event"
-	"github.com/arcology-network/evm/rpc"
+	ethereum "github.com/HPISTechnologies/evm"
+	"github.com/HPISTechnologies/evm/event"
+	"github.com/HPISTechnologies/evm/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

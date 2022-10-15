@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

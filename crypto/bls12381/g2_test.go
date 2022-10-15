@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 func (g *G2) one() *PointG2 {

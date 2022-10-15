@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/p2p"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

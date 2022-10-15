@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 func TestTransaction(t *testing.T) {

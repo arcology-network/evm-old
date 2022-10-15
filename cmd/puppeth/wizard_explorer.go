@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arcology-network/evm/log"
+	"github.com/HPISTechnologies/evm/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

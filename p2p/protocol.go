@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

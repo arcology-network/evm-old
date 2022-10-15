@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/arcology-network/evm/common/mclock"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/common/mclock"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

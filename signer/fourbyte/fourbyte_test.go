@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arcology-network/evm/accounts/abi"
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/accounts/abi"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

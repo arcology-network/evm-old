@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/arcology-network/evm/cmd/utils"
-	"github.com/arcology-network/evm/crypto"
+	"github.com/HPISTechnologies/evm/cmd/utils"
+	"github.com/HPISTechnologies/evm/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

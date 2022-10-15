@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/event"
-	"github.com/arcology-network/evm/log"
-	"github.com/arcology-network/evm/p2p"
-	"github.com/arcology-network/evm/p2p/enode"
-	"github.com/arcology-network/evm/p2p/simulations/adapters"
+	"github.com/HPISTechnologies/evm/event"
+	"github.com/HPISTechnologies/evm/log"
+	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

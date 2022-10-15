@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

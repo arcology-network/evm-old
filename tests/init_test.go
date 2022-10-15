@@ -31,7 +31,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 // Command line flags to configure the interpreters.

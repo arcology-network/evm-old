@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/arcology-network/evm/consensus/ethash"
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/consensus/ethash"
+	"github.com/HPISTechnologies/evm/core/types"
 )
 
 type fuzzer struct {

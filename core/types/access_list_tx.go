@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/arcology-network/evm/common"
+	"github.com/HPISTechnologies/evm/common"
 )
 
 //go:generate gencodec -type AccessTuple -out gen_access_tuple.go

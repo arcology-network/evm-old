@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/arcology-network/evm/params"
+	"github.com/HPISTechnologies/evm/params"
 )
 
 func minSwapStack(n int) int {

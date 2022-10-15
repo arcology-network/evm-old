@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/common/hexutil"
-	"github.com/arcology-network/evm/consensus"
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/HPISTechnologies/evm/consensus"
+	"github.com/HPISTechnologies/evm/core/types"
 )
 
 const (

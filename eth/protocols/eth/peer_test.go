@@ -22,8 +22,8 @@ package eth
 import (
 	"crypto/rand"
 
-	"github.com/arcology-network/evm/p2p"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 // testPeer is a simulated peer to allow testing direct network calls.

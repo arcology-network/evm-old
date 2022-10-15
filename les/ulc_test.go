@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology-network/evm/crypto"
-	"github.com/arcology-network/evm/p2p"
-	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/HPISTechnologies/evm/p2p/enode"
 )
 
 func TestULCAnnounceThresholdLes2(t *testing.T) { testULCAnnounceThreshold(t, 2) }

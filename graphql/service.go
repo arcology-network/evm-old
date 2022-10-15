@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/arcology-network/evm/internal/ethapi"
-	"github.com/arcology-network/evm/node"
+	"github.com/HPISTechnologies/evm/internal/ethapi"
+	"github.com/HPISTechnologies/evm/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

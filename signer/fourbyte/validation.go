@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/signer/core"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/signer/core"
 )
 
 // ValidateTransaction does a number of checks on the supplied transaction, and
@@ -49,7 +49,7 @@ func (db *Database) ValidateTransaction(selector *string, tx *core.SendTxArgs) (
 	if tx.To == nil {
 		// Contract creation should contain sufficient data to deploy a contract. A
 		// typical error is omitting sender due to some quirk in the javascript call
-		// e.g. https://github.com/arcology-network/evm/issues/16106.
+		// e.g. https://github.com/HPISTechnologies/evm/issues/16106.
 		if len(data) == 0 {
 			// Prevent sending ether into black hole (show stopper)
 			if tx.Value.ToInt().Cmp(big.NewInt(0)) > 0 {

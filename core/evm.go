@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/consensus"
-	"github.com/arcology-network/evm/core/types"
-	"github.com/arcology-network/evm/core/vm"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/consensus"
+	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/HPISTechnologies/evm/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology-network/evm/common/mclock"
-	"github.com/arcology-network/evm/les/utils"
+	"github.com/HPISTechnologies/evm/common/mclock"
+	"github.com/HPISTechnologies/evm/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

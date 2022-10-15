@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/arcology-network/evm/common"
-	"github.com/arcology-network/evm/core/types"
+	"github.com/HPISTechnologies/evm/common"
+	"github.com/HPISTechnologies/evm/core/types"
 )
 
 // StateDB is an EVM database for full state querying.
