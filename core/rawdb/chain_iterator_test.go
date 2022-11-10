@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

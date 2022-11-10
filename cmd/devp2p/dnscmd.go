@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts/keystore"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/console/prompt"
-	"github.com/HPISTechnologies/evm/p2p/dnsdisc"
-	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/arcology-network/evm/accounts/keystore"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/console/prompt"
+	"github.com/arcology-network/evm/p2p/dnsdisc"
+	"github.com/arcology-network/evm/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

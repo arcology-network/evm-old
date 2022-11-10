@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/consensus/ethash"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/eth/downloader"
-	"github.com/HPISTechnologies/evm/eth/gasprice"
-	"github.com/HPISTechnologies/evm/miner"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/consensus/ethash"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/eth/downloader"
+	"github.com/arcology-network/evm/eth/gasprice"
+	"github.com/arcology-network/evm/miner"
+	"github.com/arcology-network/evm/params"
 )
 
 // MarshalTOML marshals as TOML.

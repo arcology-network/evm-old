@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/event"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/event"
 )
 
 // Config contains the settings of the global account manager.

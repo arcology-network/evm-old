@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/HPISTechnologies/evm/core/forkid"
-	"github.com/HPISTechnologies/evm/p2p/dnsdisc"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/core/forkid"
+	"github.com/arcology-network/evm/p2p/dnsdisc"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

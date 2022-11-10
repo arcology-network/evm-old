@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/arcology-network/evm/core/types"
 )
 
 var (

@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common/bitutil"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/common/bitutil"
+	"github.com/arcology-network/evm/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

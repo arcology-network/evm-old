@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

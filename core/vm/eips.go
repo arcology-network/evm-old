@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/params"
 	"github.com/holiman/uint256"
 )
 

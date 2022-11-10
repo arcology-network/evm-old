@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

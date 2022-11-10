@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HPISTechnologies/evm/core/forkid"
-	"github.com/HPISTechnologies/evm/p2p/enr"
-	"github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/core/forkid"
+	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

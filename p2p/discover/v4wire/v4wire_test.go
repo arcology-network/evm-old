@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/rlp"
 	"github.com/davecgh/go-spew/spew"
 )
 

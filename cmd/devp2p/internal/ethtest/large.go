@@ -20,9 +20,9 @@ import (
 	"crypto/rand"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/core/types"
 )
 
 // largeNumber returns a very large big.Int.

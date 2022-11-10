@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/vm/runtime"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/vm/runtime"
 )
 
 func ExampleExecute() {

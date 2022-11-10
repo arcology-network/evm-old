@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/arcology-network/evm/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {

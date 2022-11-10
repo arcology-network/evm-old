@@ -1,7 +1,7 @@
 package monaco
 
 import (
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 // KernelAPI provides system level function calls supported by Monaco platform.

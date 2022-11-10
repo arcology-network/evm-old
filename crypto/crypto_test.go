@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
 )
 
 var testAddrHex = "970e8128ab834e8eac17ab8e3812f010678cf791"
@@ -297,4 +297,11 @@ func TestPythonIntegration(t *testing.T) {
 
 	t.Logf("msg: %x, privkey: %s sig: %x\n", msg0, kh, sig0)
 	t.Logf("msg: %x, privkey: %s sig: %x\n", msg1, kh, sig1)
+}
+
+func TestCreateAddress(t *testing.T) {
+	addr := common.HexToAddress("ab01a3bfc5de6b5fc481e18f274adbdba9b111f0")
+	for i := 1; i < 10; i++ {
+		t.Log("nonce =", i, "addr =", CreateAddress(addr, uint64(i)))
+	}
 }

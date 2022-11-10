@@ -22,13 +22,13 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/prque"
-	"github.com/HPISTechnologies/evm/consensus"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/metrics"
-	"github.com/HPISTechnologies/evm/trie"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/prque"
+	"github.com/arcology-network/evm/consensus"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/metrics"
+	"github.com/arcology-network/evm/trie"
 )
 
 const (

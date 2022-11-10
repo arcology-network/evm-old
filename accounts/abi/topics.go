@@ -23,8 +23,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
 )
 
 // MakeTopics converts a filter query argument list into a filter topic set.

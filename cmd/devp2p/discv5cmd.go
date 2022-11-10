@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/HPISTechnologies/evm/cmd/devp2p/internal/v5test"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/p2p/discover"
+	"github.com/arcology-network/evm/cmd/devp2p/internal/v5test"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

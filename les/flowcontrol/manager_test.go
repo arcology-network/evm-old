@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common/mclock"
+	"github.com/arcology-network/evm/common/mclock"
 )
 
 type testNode struct {

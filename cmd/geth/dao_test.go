@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

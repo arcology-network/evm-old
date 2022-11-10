@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/core/asm"
+	"github.com/arcology-network/evm/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

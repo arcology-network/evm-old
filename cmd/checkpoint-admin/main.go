@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/HPISTechnologies/evm/common/fdlimit"
-	"github.com/HPISTechnologies/evm/internal/flags"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/common/fdlimit"
+	"github.com/arcology-network/evm/internal/flags"
+	"github.com/arcology-network/evm/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

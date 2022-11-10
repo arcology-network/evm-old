@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

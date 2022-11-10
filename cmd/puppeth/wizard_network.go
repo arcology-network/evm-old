@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

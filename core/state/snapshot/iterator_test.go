@@ -23,9 +23,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/rawdb"
 	"github.com/VictoriaMetrics/fastcache"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/rawdb"
 )
 
 // TestAccountIteratorBasics tests some simple single-layer(diff and disk) iteration

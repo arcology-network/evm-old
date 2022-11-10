@@ -23,10 +23,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/accounts/abi/bind"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/contracts/checkpointoracle/contract"
-	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/arcology-network/evm/accounts/abi/bind"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/contracts/checkpointoracle/contract"
+	"github.com/arcology-network/evm/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.

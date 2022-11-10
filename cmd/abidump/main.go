@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/signer/core"
-	"github.com/HPISTechnologies/evm/signer/fourbyte"
+	"github.com/arcology-network/evm/signer/core"
+	"github.com/arcology-network/evm/signer/fourbyte"
 )
 
 func init() {

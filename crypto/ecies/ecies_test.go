@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/crypto"
 )
 
 func TestKDF(t *testing.T) {

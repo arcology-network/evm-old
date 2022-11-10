@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/cmd/utils"
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/cmd/utils"
+	"github.com/arcology-network/evm/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

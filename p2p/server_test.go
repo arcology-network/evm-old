@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/internal/testlog"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/enr"
-	"github.com/HPISTechnologies/evm/p2p/rlpx"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/internal/testlog"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/arcology-network/evm/p2p/rlpx"
 )
 
 type testTransport struct {

@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/common/math"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/common/math"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/params"
 )
 
 // Storage represents a contract's storage.

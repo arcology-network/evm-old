@@ -19,10 +19,10 @@ package clique
 import (
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/consensus"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/consensus"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

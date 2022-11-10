@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/core/vm"
+	"github.com/arcology-network/evm/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

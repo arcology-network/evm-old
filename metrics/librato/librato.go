@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/arcology-network/evm/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

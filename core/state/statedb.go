@@ -24,15 +24,15 @@ import (
 	"sort"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/core/state/snapshot"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/metrics"
-	"github.com/HPISTechnologies/evm/rlp"
-	"github.com/HPISTechnologies/evm/trie"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/core/state/snapshot"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/metrics"
+	"github.com/arcology-network/evm/rlp"
+	"github.com/arcology-network/evm/trie"
 )
 
 type revision struct {
@@ -620,8 +620,8 @@ func (s *StateDB) createObject(addr common.Address) (newobj, prev *stateObject) 
 // CreateAccount is called during the EVM CREATE operation. The situation might arise that
 // a contract does the following:
 //
-//   1. sends funds to sha(account ++ (nonce + 1))
-//   2. tx_create(sha(account ++ nonce)) (note that this gets the address of 1)
+//  1. sends funds to sha(account ++ (nonce + 1))
+//  2. tx_create(sha(account ++ nonce)) (note that this gets the address of 1)
 //
 // Carrying over the balance ensures that Ether doesn't disappear.
 func (s *StateDB) CreateAccount(addr common.Address) {
@@ -679,7 +679,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/HPISTechnologies/evm/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/arcology-network/evm/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

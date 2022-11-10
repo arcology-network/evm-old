@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

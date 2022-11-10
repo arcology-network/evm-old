@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts/abi/bind"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/light"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/accounts/abi/bind"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/light"
+	"github.com/arcology-network/evm/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -196,7 +196,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool, protocol int) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/HPISTechnologies/evm/issues/20097 for more detail.
+	// See https://github.com/arcology-network/evm/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

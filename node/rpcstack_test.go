@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/internal/testlog"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/internal/testlog"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

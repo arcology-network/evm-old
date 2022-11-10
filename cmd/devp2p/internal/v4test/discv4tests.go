@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/internal/utesting"
-	"github.com/HPISTechnologies/evm/p2p/discover/v4wire"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/internal/utesting"
+	"github.com/arcology-network/evm/p2p/discover/v4wire"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/types"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

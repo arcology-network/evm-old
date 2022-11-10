@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enode"
 )
 
 const (

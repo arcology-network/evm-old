@@ -33,10 +33,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/HPISTechnologies/evm/consensus"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/metrics"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/consensus"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/metrics"
+	"github.com/arcology-network/evm/rpc"
 	"github.com/edsrzf/mmap-go"
 	"github.com/hashicorp/golang-lru/simplelru"
 )

@@ -27,9 +27,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/crypto/ecies"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/crypto/ecies"
+	"github.com/arcology-network/evm/rlp"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
 )

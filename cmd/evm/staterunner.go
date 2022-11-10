@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/vm"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/tests"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/vm"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

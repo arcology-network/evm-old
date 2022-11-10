@@ -24,13 +24,13 @@ import (
 	"io"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rlp"
-	"github.com/HPISTechnologies/evm/trie"
 	"github.com/VictoriaMetrics/fastcache"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rlp"
+	"github.com/arcology-network/evm/trie"
 )
 
 const journalVersion uint64 = 0

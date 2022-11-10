@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build none
 // +build none
 
 // This file contains a miner stress test based on the Clique consensus engine.
@@ -28,21 +29,21 @@ import (
 	"os"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts/keystore"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/fdlimit"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/eth"
-	"github.com/HPISTechnologies/evm/eth/downloader"
-	"github.com/HPISTechnologies/evm/eth/ethconfig"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/miner"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/accounts/keystore"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/fdlimit"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/eth"
+	"github.com/arcology-network/evm/eth/downloader"
+	"github.com/arcology-network/evm/eth/ethconfig"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/miner"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/params"
 )
 
 func main() {

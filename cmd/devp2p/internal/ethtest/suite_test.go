@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/eth"
-	"github.com/HPISTechnologies/evm/eth/ethconfig"
-	"github.com/HPISTechnologies/evm/internal/utesting"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/arcology-network/evm/eth"
+	"github.com/arcology-network/evm/eth/ethconfig"
+	"github.com/arcology-network/evm/internal/utesting"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/p2p"
 )
 
 var (

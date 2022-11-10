@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

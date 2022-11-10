@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 // Type enumerator

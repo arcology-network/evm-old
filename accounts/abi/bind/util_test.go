@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts/abi/bind"
-	"github.com/HPISTechnologies/evm/accounts/abi/bind/backends"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/accounts/abi/bind"
+	"github.com/arcology-network/evm/accounts/abi/bind/backends"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

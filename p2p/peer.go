@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common/mclock"
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/metrics"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/enr"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common/mclock"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/metrics"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/arcology-network/evm/rlp"
 )
 
 var (

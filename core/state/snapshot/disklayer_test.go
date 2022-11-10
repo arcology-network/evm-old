@@ -22,13 +22,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/ethdb/leveldb"
-	"github.com/HPISTechnologies/evm/ethdb/memorydb"
-	"github.com/HPISTechnologies/evm/rlp"
 	"github.com/VictoriaMetrics/fastcache"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/ethdb/leveldb"
+	"github.com/arcology-network/evm/ethdb/memorydb"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

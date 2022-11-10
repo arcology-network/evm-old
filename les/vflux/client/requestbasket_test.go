@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/les/utils"
+	"github.com/arcology-network/evm/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

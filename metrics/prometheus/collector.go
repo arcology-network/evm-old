@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/arcology-network/evm/metrics"
 )
 
 var (

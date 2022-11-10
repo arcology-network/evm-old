@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/trie"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/trie"
 )
 
 // testTxPoolConfig is a transaction pool configuration without stateful disk

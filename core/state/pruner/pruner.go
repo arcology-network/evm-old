@@ -27,16 +27,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/state/snapshot"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rlp"
-	"github.com/HPISTechnologies/evm/trie"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/state/snapshot"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rlp"
+	"github.com/arcology-network/evm/trie"
 )
 
 const (
@@ -67,9 +67,9 @@ var (
 // Pruner is an offline tool to prune the stale state with the
 // help of the snapshot. The workflow of pruner is very simple:
 //
-// - iterate the snapshot, reconstruct the relevant state
-// - iterate the database, delete all other state entries which
-//   don't belong to the target state and the genesis state
+//   - iterate the snapshot, reconstruct the relevant state
+//   - iterate the database, delete all other state entries which
+//     don't belong to the target state and the genesis state
 //
 // It can take several hours(around 2 hours for mainnet) to finish
 // the whole pruning work. It's recommended to run this offline tool

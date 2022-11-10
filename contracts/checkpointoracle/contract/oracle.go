@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/HPISTechnologies/evm"
-	"github.com/HPISTechnologies/evm/accounts/abi"
-	"github.com/HPISTechnologies/evm/accounts/abi/bind"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/event"
+	ethereum "github.com/arcology-network/evm"
+	"github.com/arcology-network/evm/accounts/abi"
+	"github.com/arcology-network/evm/accounts/abi/bind"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/simulations"
-	"github.com/HPISTechnologies/evm/p2p/simulations/adapters"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/simulations"
+	"github.com/arcology-network/evm/p2p/simulations/adapters"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

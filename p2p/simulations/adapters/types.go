@@ -25,13 +25,13 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/enr"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/arcology-network/evm/rpc"
 	"github.com/docker/docker/pkg/reexec"
 	"github.com/gorilla/websocket"
 )
@@ -42,7 +42,6 @@ import (
 // * SimNode    - An in-memory node
 // * ExecNode   - A child process node
 // * DockerNode - A Docker container node
-//
 type Node interface {
 	// Addr returns the node's address (e.g. an Enode URL)
 	Addr() []byte

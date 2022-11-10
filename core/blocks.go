@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/HPISTechnologies/evm/common"
+import "github.com/arcology-network/evm/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

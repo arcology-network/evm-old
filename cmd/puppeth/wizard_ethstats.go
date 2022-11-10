@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

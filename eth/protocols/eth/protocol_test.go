@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // Tests that the custom union field encoder and decoder works correctly.

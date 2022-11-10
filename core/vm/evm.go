@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/monaco"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/monaco"
+	"github.com/arcology-network/evm/params"
 	"github.com/holiman/uint256"
 )
 
@@ -461,8 +461,8 @@ func (evm *EVM) create(caller ContractRef, codeAndHash *codeAndHash, gas uint64,
 	if !evm.Context.CanTransfer(evm.StateDB, caller.Address(), value) {
 		return nil, common.Address{}, gas, ErrInsufficientBalance
 	}
-	nonce := evm.StateDB.GetNonce(caller.Address())
-	evm.StateDB.SetNonce(caller.Address(), nonce+1)
+	// nonce := evm.StateDB.GetNonce(caller.Address())
+	// evm.StateDB.SetNonce(caller.Address(), nonce+1)
 	// We add this to the access list _before_ taking a snapshot. Even if the creation fails,
 	// the access-list change should not be rolled back
 	if evm.chainRules.IsBerlin {

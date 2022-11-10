@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/p2p/simulations/pipes"
+	"github.com/arcology-network/evm/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

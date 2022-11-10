@@ -31,9 +31,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

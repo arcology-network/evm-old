@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/prque"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/prque"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

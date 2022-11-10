@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common/mclock"
+	"github.com/arcology-network/evm/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

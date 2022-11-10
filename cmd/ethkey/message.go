@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/HPISTechnologies/evm/accounts/keystore"
-	"github.com/HPISTechnologies/evm/cmd/utils"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/accounts/keystore"
+	"github.com/arcology-network/evm/cmd/utils"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

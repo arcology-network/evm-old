@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

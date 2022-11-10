@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/dnsdisc"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/dnsdisc"
 	"github.com/cloudflare/cloudflare-go"
 	"gopkg.in/urfave/cli.v1"
 )

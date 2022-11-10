@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/core/vm"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

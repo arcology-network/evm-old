@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/nodestate"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

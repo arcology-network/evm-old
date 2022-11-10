@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
 	"github.com/davecgh/go-spew/spew"
 )
 

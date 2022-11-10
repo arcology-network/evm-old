@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/arcology-network/evm/metrics"
 )
 
 var (

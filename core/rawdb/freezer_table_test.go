@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/metrics"
+	"github.com/arcology-network/evm/metrics"
 )
 
 func init() {

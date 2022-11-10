@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/HPISTechnologies/evm/cmd/devp2p/internal/v4test"
-	"github.com/HPISTechnologies/evm/internal/utesting"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/cmd/devp2p/internal/v4test"
+	"github.com/arcology-network/evm/internal/utesting"
+	"github.com/arcology-network/evm/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/HPISTechnologies/evm/common/mclock"
-	"github.com/HPISTechnologies/evm/common/prque"
+	"github.com/arcology-network/evm/common/mclock"
+	"github.com/arcology-network/evm/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

@@ -23,16 +23,16 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/eth"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/node"
-	chainParams "github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/rpc"
-	"github.com/HPISTechnologies/evm/trie"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/eth"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/node"
+	chainParams "github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/rpc"
+	"github.com/arcology-network/evm/trie"
 )
 
 // Register adds catalyst APIs to the node.

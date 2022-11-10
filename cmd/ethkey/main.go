@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/HPISTechnologies/evm/internal/flags"
+	"github.com/arcology-network/evm/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

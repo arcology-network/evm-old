@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts/abi/bind"
-	"github.com/HPISTechnologies/evm/accounts/abi/bind/backends"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/contracts/checkpointoracle/contract"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/accounts/abi/bind"
+	"github.com/arcology-network/evm/accounts/abi/bind/backends"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/contracts/checkpointoracle/contract"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/params"
 )
 
 var (

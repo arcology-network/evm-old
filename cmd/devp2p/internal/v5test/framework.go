@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common/mclock"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/p2p/discover/v5wire"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/enr"
+	"github.com/arcology-network/evm/common/mclock"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/p2p/discover/v5wire"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enr"
 )
 
 // readError represents an error during packet reading.

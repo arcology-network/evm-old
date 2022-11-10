@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/math"
-	"github.com/HPISTechnologies/evm/consensus/ethash"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/math"
+	"github.com/arcology-network/evm/consensus/ethash"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/params"
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

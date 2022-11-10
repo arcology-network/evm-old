@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/core/vm"
+	"github.com/arcology-network/evm/core/vm"
 )
 
 func TestState(t *testing.T) {

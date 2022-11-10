@@ -21,15 +21,15 @@ import (
 	"math/big"
 	"sync"
 
-	ethereum "github.com/HPISTechnologies/evm"
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rpc"
-	"github.com/HPISTechnologies/evm/signer/core"
+	ethereum "github.com/arcology-network/evm"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rpc"
+	"github.com/arcology-network/evm/signer/core"
 )
 
 type ExternalBackend struct {

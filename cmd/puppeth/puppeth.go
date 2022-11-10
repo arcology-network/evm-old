@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

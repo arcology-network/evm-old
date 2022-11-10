@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts/keystore"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/arcology-network/evm/accounts/keystore"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/types"
 )
 
 // Tests that the account management snippets work correctly.

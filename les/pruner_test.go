@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/light"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/light"
 )
 
 func TestLightPruner(t *testing.T) {

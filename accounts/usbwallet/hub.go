@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/log"
 	"github.com/karalabe/usb"
 )
 

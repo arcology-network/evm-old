@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/consensus"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/eth/fetcher"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/light"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/consensus"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/eth/fetcher"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/light"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/enode"
 )
 
 const (
@@ -244,18 +244,19 @@ func (f *lightFetcher) forEachPeer(check func(id enode.ID, p *fetcherPeer) bool)
 }
 
 // mainloop is the main event loop of the light fetcher, which is responsible for
-// - announcement maintenance(ulc)
-//   If we are running in ultra light client mode, then all announcements from
-//   the trusted servers are maintained. If the same announcements from trusted
-//   servers reach the threshold, then the relevant header is requested for retrieval.
 //
-// - block header retrieval
-//   Whenever we receive announce with higher td compared with local chain, the
-//   request will be made for header retrieval.
+//   - announcement maintenance(ulc)
+//     If we are running in ultra light client mode, then all announcements from
+//     the trusted servers are maintained. If the same announcements from trusted
+//     servers reach the threshold, then the relevant header is requested for retrieval.
 //
-// - re-sync trigger
-//   If the local chain lags too much, then the fetcher will enter "synnchronise"
-//   mode to retrieve missing headers in batch.
+//   - block header retrieval
+//     Whenever we receive announce with higher td compared with local chain, the
+//     request will be made for header retrieval.
+//
+//   - re-sync trigger
+//     If the local chain lags too much, then the fetcher will enter "synnchronise"
+//     mode to retrieve missing headers in batch.
 func (f *lightFetcher) mainloop() {
 	defer f.wg.Done()
 

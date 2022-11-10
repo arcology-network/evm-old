@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/dnsdisc"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/dnsdisc"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"

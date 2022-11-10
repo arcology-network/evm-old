@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

@@ -26,7 +26,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 var (

@@ -31,20 +31,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/mclock"
-	"github.com/HPISTechnologies/evm/consensus"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/eth/downloader"
-	ethproto "github.com/HPISTechnologies/evm/eth/protocols/eth"
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/les"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/miner"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/mclock"
+	"github.com/arcology-network/evm/consensus"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/eth/downloader"
+	ethproto "github.com/arcology-network/evm/eth/protocols/eth"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/les"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/miner"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/rpc"
 	"github.com/gorilla/websocket"
 )
 
@@ -103,13 +103,14 @@ type Service struct {
 // websocket.
 //
 // From Gorilla websocket docs:
-//   Connections support one concurrent reader and one concurrent writer.
-//   Applications are responsible for ensuring that no more than one goroutine calls the write methods
-//     - NextWriter, SetWriteDeadline, WriteMessage, WriteJSON, EnableWriteCompression, SetCompressionLevel
-//   concurrently and that no more than one goroutine calls the read methods
-//     - NextReader, SetReadDeadline, ReadMessage, ReadJSON, SetPongHandler, SetPingHandler
-//   concurrently.
-//   The Close and WriteControl methods can be called concurrently with all other methods.
+//
+//	Connections support one concurrent reader and one concurrent writer.
+//	Applications are responsible for ensuring that no more than one goroutine calls the write methods
+//	  - NextWriter, SetWriteDeadline, WriteMessage, WriteJSON, EnableWriteCompression, SetCompressionLevel
+//	concurrently and that no more than one goroutine calls the read methods
+//	  - NextReader, SetReadDeadline, ReadMessage, ReadJSON, SetPongHandler, SetPingHandler
+//	concurrently.
+//	The Close and WriteControl methods can be called concurrently with all other methods.
 type connWrapper struct {
 	conn *websocket.Conn
 

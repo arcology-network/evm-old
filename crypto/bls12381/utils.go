@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 func bigFromHex(hex string) *big.Int {

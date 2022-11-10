@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/HPISTechnologies/evm"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/rpc"
+	ethereum "github.com/arcology-network/evm"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/rpc"
 )
 
 // filter is a helper struct that holds meta information over the filter type

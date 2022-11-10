@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/arcology-network/evm/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

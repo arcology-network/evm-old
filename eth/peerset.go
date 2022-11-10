@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/eth/protocols/eth"
-	"github.com/HPISTechnologies/evm/eth/protocols/snap"
-	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/eth/protocols/eth"
+	"github.com/arcology-network/evm/eth/protocols/snap"
+	"github.com/arcology-network/evm/p2p"
 )
 
 var (

@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

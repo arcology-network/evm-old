@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

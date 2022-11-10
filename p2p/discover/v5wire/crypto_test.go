@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/netutil"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

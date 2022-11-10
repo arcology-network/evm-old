@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/rpc"
 )
 
 type gethrpc struct {

@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/HPISTechnologies/evm/internal/ethapi"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/internal/ethapi"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rpc"
 )
 
 type StdIOUI struct {

@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

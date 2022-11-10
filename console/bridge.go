@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts/scwallet"
-	"github.com/HPISTechnologies/evm/accounts/usbwallet"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/console/prompt"
-	"github.com/HPISTechnologies/evm/internal/jsre"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/accounts/scwallet"
+	"github.com/arcology-network/evm/accounts/usbwallet"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/console/prompt"
+	"github.com/arcology-network/evm/internal/jsre"
+	"github.com/arcology-network/evm/rpc"
 	"github.com/dop251/goja"
 )
 

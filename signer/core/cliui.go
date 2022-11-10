@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/console/prompt"
-	"github.com/HPISTechnologies/evm/internal/ethapi"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/console/prompt"
+	"github.com/arcology-network/evm/internal/ethapi"
+	"github.com/arcology-network/evm/log"
 )
 
 type CommandlineUI struct {

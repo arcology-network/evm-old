@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

@@ -30,13 +30,13 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/math"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/math"
+	"github.com/arcology-network/evm/rlp"
 	"golang.org/x/crypto/sha3"
 )
 
-//SignatureLength indicates the byte length required to carry a signature with recovery id.
+// SignatureLength indicates the byte length required to carry a signature with recovery id.
 const SignatureLength = 64 + 1 // 64 bytes ECDSA signature + 1 byte recovery id
 
 // RecoveryIDOffset points to the byte offset within the signature that contains the recovery id.

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/les/utils"
+	"github.com/arcology-network/evm/les/utils"
 )
 
 func TestTransition(t *testing.T) {

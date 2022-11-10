@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common/mclock"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/ethdb/memorydb"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/enr"
+	"github.com/arcology-network/evm/common/mclock"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/ethdb/memorydb"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enr"
 )
 
 const (

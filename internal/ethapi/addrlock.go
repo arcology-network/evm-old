@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 type AddrLocker struct {

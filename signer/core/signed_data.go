@@ -30,14 +30,14 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/common/math"
-	"github.com/HPISTechnologies/evm/consensus/clique"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/common/math"
+	"github.com/arcology-network/evm/consensus/clique"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/rlp"
 )
 
 type SigFormat struct {
@@ -651,7 +651,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/HPISTechnologies/evm/wiki/Management-APIs#personal_ecRecover
+	// https://github.com/arcology-network/evm/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")
 	}

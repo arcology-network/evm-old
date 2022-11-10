@@ -25,17 +25,17 @@ import (
 	"os"
 	"path"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/core/vm"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/rlp"
-	"github.com/HPISTechnologies/evm/tests"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/core/vm"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/rlp"
+	"github.com/arcology-network/evm/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -260,8 +260,9 @@ func (t *txWithKey) UnmarshalJSON(input []byte) error {
 // signUnsignedTransactions converts the input txs to canonical transactions.
 //
 // The transactions can have two forms, either
-//   1. unsigned or
-//   2. signed
+//  1. unsigned or
+//  2. signed
+//
 // For (1), r, s, v, need so be zero, and the `secretKey` needs to be set.
 // If so, we sign it here and now, with the given `secretKey`
 // If the condition above is not met, then it's considered a signed transaction.

@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

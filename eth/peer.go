@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/eth/protocols/eth"
-	"github.com/HPISTechnologies/evm/eth/protocols/snap"
+	"github.com/arcology-network/evm/eth/protocols/eth"
+	"github.com/arcology-network/evm/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

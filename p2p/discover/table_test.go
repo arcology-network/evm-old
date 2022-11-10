@@ -27,10 +27,10 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/enr"
-	"github.com/HPISTechnologies/evm/p2p/netutil"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/arcology-network/evm/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

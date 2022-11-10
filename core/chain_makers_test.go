@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/consensus/ethash"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/core/vm"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/consensus/ethash"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/core/vm"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/params"
 )
 
 func ExampleGenerateChain() {

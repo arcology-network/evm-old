@@ -22,16 +22,16 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/consensus"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/eth/downloader"
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/consensus"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/eth/downloader"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/params"
 )
 
 // Backend wraps all methods required for mining.

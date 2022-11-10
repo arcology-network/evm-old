@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/metrics"
-	"github.com/HPISTechnologies/evm/metrics/prometheus"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/metrics"
+	"github.com/arcology-network/evm/metrics/prometheus"
 )
 
 type exp struct {

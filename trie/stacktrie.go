@@ -25,10 +25,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rlp"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")
@@ -363,11 +363,12 @@ func (st *StackTrie) insert(key, value []byte) {
 // hash() hashes the node 'st' and converts it into 'hashedNode', if possible.
 // Possible outcomes:
 // 1. The rlp-encoded value was >= 32 bytes:
-//  - Then the 32-byte `hash` will be accessible in `st.val`.
-//  - And the 'st.type' will be 'hashedNode'
+//   - Then the 32-byte `hash` will be accessible in `st.val`.
+//   - And the 'st.type' will be 'hashedNode'
+//
 // 2. The rlp-encoded value was < 32 bytes
-//  - Then the <32 byte rlp-encoded value will be accessible in 'st.val'.
-//  - And the 'st.type' will be 'hashedNode' AGAIN
+//   - Then the <32 byte rlp-encoded value will be accessible in 'st.val'.
+//   - And the 'st.type' will be 'hashedNode' AGAIN
 //
 // This method will also:
 // set 'st.type' to hashedNode

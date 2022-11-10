@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

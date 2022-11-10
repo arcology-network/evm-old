@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/HPISTechnologies/evm/accounts/keystore"
+	"github.com/arcology-network/evm/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

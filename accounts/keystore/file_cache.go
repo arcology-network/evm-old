@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 	mapset "github.com/deckarep/golang-set"
 )
 

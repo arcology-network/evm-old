@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/ethdb/memorydb"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

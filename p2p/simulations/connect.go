@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enode"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

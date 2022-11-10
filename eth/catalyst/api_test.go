@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/consensus/ethash"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/eth"
-	"github.com/HPISTechnologies/evm/eth/ethconfig"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/consensus/ethash"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/eth"
+	"github.com/arcology-network/evm/eth/ethconfig"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/params"
 )
 
 var (

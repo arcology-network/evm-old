@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/accounts/keystore"
-	"github.com/HPISTechnologies/evm/cmd/utils"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/eth/downloader"
-	"github.com/HPISTechnologies/evm/eth/ethconfig"
-	"github.com/HPISTechnologies/evm/ethclient"
-	"github.com/HPISTechnologies/evm/ethstats"
-	"github.com/HPISTechnologies/evm/les"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/nat"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/accounts/keystore"
+	"github.com/arcology-network/evm/cmd/utils"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/eth/downloader"
+	"github.com/arcology-network/evm/eth/ethconfig"
+	"github.com/arcology-network/evm/ethclient"
+	"github.com/arcology-network/evm/ethstats"
+	"github.com/arcology-network/evm/les"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/nat"
+	"github.com/arcology-network/evm/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/HPISTechnologies/evm/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/arcology-network/evm/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

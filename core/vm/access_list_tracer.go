@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/types"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

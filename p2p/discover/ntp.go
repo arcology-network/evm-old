@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 const (

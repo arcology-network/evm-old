@@ -29,8 +29,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rpc"
 	"github.com/rs/cors"
 )
 

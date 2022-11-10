@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/eth/downloader"
-	"github.com/HPISTechnologies/evm/eth/ethconfig"
-	"github.com/HPISTechnologies/evm/ethclient"
-	"github.com/HPISTechnologies/evm/ethstats"
-	"github.com/HPISTechnologies/evm/internal/debug"
-	"github.com/HPISTechnologies/evm/les"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/p2p/nat"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/eth/downloader"
+	"github.com/arcology-network/evm/eth/ethconfig"
+	"github.com/arcology-network/evm/ethclient"
+	"github.com/arcology-network/evm/ethstats"
+	"github.com/arcology-network/evm/internal/debug"
+	"github.com/arcology-network/evm/les"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/p2p/nat"
+	"github.com/arcology-network/evm/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

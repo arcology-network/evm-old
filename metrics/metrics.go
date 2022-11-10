@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

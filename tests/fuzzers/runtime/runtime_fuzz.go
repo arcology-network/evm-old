@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/HPISTechnologies/evm/core/vm/runtime"
+	"github.com/arcology-network/evm/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

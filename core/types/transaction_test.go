@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

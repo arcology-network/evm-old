@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/math"
 )
 
 type JSONLogger struct {

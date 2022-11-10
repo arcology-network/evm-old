@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/forkid"
-	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/forkid"
+	"github.com/arcology-network/evm/p2p"
 )
 
 const (

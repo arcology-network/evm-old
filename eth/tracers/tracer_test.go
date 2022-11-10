@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/vm"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/vm"
+	"github.com/arcology-network/evm/params"
 )
 
 type account struct{}

@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common/mclock"
-	"github.com/HPISTechnologies/evm/common/prque"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/nodestate"
+	"github.com/arcology-network/evm/common/mclock"
+	"github.com/arcology-network/evm/common/prque"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/nodestate"
 )
 
 const (

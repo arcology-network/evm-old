@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/accounts/abi"
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/accounts/abi"
+	"github.com/arcology-network/evm/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

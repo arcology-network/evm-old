@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

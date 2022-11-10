@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 func TestFacebook(t *testing.T) {

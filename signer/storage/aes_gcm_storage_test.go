@@ -23,8 +23,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/log"
 	"github.com/mattn/go-colorable"
 )
 

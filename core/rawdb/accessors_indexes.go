@@ -20,12 +20,12 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // ReadTxLookupEntry retrieves the positional metadata associated with a transaction

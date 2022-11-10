@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

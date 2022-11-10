@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/arcology-network/evm/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

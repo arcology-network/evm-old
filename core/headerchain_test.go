@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/consensus"
-	"github.com/HPISTechnologies/evm/consensus/ethash"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/consensus"
+	"github.com/arcology-network/evm/consensus/ethash"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/params"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

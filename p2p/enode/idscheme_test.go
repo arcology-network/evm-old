@@ -23,9 +23,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/p2p/enr"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/arcology-network/evm/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

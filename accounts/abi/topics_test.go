@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

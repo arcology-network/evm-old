@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/consensus/ethash"
-	"github.com/HPISTechnologies/evm/console/prompt"
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/eth"
-	"github.com/HPISTechnologies/evm/eth/ethconfig"
-	"github.com/HPISTechnologies/evm/internal/jsre"
-	"github.com/HPISTechnologies/evm/miner"
-	"github.com/HPISTechnologies/evm/node"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/consensus/ethash"
+	"github.com/arcology-network/evm/console/prompt"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/eth"
+	"github.com/arcology-network/evm/eth/ethconfig"
+	"github.com/arcology-network/evm/internal/jsre"
+	"github.com/arcology-network/evm/miner"
+	"github.com/arcology-network/evm/node"
 )
 
 const (

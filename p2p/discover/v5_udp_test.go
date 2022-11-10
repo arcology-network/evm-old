@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/internal/testlog"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/discover/v5wire"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/enr"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/internal/testlog"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/discover/v5wire"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/cmd/utils"
-	"github.com/HPISTechnologies/evm/consensus/ethash"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/cmd/utils"
+	"github.com/arcology-network/evm/consensus/ethash"
+	"github.com/arcology-network/evm/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

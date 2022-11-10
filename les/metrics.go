@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/HPISTechnologies/evm/metrics"
-	"github.com/HPISTechnologies/evm/p2p"
+	"github.com/arcology-network/evm/metrics"
+	"github.com/arcology-network/evm/p2p"
 )
 
 var (

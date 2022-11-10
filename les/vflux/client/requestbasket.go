@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/HPISTechnologies/evm/les/utils"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/les/utils"
+	"github.com/arcology-network/evm/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

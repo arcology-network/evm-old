@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/accounts/abi"
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/accounts/abi"
+	"github.com/arcology-network/evm/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

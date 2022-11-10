@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/node"
+	"github.com/arcology-network/evm/node"
 	"gopkg.in/urfave/cli.v1"
 )
 

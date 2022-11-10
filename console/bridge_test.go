@@ -19,7 +19,7 @@ package console
 import (
 	"testing"
 
-	"github.com/HPISTechnologies/evm/internal/jsre"
+	"github.com/arcology-network/evm/internal/jsre"
 	"github.com/dop251/goja"
 )
 

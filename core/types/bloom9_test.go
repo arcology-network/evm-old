@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
 )
 
 func TestBloom(t *testing.T) {

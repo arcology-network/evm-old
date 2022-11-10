@@ -19,14 +19,14 @@ package core
 import (
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/consensus"
-	"github.com/HPISTechnologies/evm/consensus/misc"
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/core/vm"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/consensus"
+	"github.com/arcology-network/evm/consensus/misc"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/core/vm"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

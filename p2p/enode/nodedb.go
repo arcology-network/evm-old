@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

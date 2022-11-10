@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/rlp"
 )
 
 var (

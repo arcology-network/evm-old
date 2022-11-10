@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

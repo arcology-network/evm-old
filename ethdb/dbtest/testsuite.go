@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/arcology-network/evm/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

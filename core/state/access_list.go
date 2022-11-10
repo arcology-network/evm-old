@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 type accessList struct {

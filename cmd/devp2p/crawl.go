@@ -19,8 +19,8 @@ package main
 import (
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/enode"
 )
 
 type crawler struct {

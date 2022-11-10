@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/node"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/simulations/adapters"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/node"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/simulations/adapters"
+	"github.com/arcology-network/evm/rpc"
 	"github.com/mattn/go-colorable"
 )
 

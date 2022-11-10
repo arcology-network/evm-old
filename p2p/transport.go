@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common/bitutil"
-	"github.com/HPISTechnologies/evm/metrics"
-	"github.com/HPISTechnologies/evm/p2p/rlpx"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common/bitutil"
+	"github.com/arcology-network/evm/metrics"
+	"github.com/arcology-network/evm/p2p/rlpx"
+	"github.com/arcology-network/evm/rlp"
 )
 
 const (

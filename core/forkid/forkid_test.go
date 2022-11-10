@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

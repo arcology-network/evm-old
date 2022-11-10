@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/accounts/abi/bind"
-	"github.com/HPISTechnologies/evm/accounts/external"
-	"github.com/HPISTechnologies/evm/cmd/utils"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/contracts/checkpointoracle"
-	"github.com/HPISTechnologies/evm/ethclient"
-	"github.com/HPISTechnologies/evm/params"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/accounts/abi/bind"
+	"github.com/arcology-network/evm/accounts/external"
+	"github.com/arcology-network/evm/cmd/utils"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/contracts/checkpointoracle"
+	"github.com/arcology-network/evm/ethclient"
+	"github.com/arcology-network/evm/params"
+	"github.com/arcology-network/evm/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

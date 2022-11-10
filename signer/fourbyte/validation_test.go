@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/signer/core"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/signer/core"
 )
 
 func mixAddr(a string) (*common.MixedcaseAddress, error) {

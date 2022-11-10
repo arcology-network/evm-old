@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/core/state"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/core/state"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/params"
 )
 
 var (
@@ -40,10 +40,11 @@ var (
 // ensure it conforms to DAO hard-fork rules.
 //
 // DAO hard-fork extension to the header validity:
-//   a) if the node is no-fork, do not accept blocks in the [fork, fork+10) range
-//      with the fork specific extra-data set
-//   b) if the node is pro-fork, require blocks in the specific range to have the
-//      unique extra-data set.
+//
+//	a) if the node is no-fork, do not accept blocks in the [fork, fork+10) range
+//	   with the fork specific extra-data set
+//	b) if the node is pro-fork, require blocks in the specific range to have the
+//	   unique extra-data set.
 func VerifyDAOHeaderExtraData(config *params.ChainConfig, header *types.Header) error {
 	// Short circuit validation if the node doesn't care about the DAO fork
 	if config.DAOForkBlock == nil {

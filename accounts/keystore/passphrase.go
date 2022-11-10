@@ -38,10 +38,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/math"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/math"
+	"github.com/arcology-network/evm/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -121,7 +121,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/HPISTechnologies/evm/issues." +
+				"https://github.com/arcology-network/evm/issues." +
 				"The error was : %s"
 			//lint:ignore ST1005 This is a message for the user
 			return fmt.Errorf(msg, tmpName, err)

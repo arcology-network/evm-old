@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/HPISTechnologies/evm/core"
-	"github.com/HPISTechnologies/evm/core/vm"
+	"github.com/arcology-network/evm/core"
+	"github.com/arcology-network/evm/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

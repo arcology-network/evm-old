@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/ethdb"
-	"github.com/HPISTechnologies/evm/ethdb/memorydb"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/rlp"
-	"github.com/HPISTechnologies/evm/trie"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/ethdb"
+	"github.com/arcology-network/evm/ethdb/memorydb"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/rlp"
+	"github.com/arcology-network/evm/trie"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -234,10 +234,12 @@ func (t *testHelper) Generate() (common.Hash, *diskLayer) {
 //   - miss in the beginning
 //   - miss in the middle
 //   - miss in the end
+//
 // - the contract(non-empty storage) has wrong storage slots
 //   - wrong slots in the beginning
 //   - wrong slots in the middle
 //   - wrong slots in the end
+//
 // - the contract(non-empty storage) has extra storage slots
 //   - extra slots in the beginning
 //   - extra slots in the middle

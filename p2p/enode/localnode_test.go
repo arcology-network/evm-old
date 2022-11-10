@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/p2p/enr"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

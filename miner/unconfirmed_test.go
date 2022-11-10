@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/HPISTechnologies/evm/core/types"
+	"github.com/arcology-network/evm/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

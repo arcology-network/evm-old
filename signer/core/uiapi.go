@@ -24,11 +24,11 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/accounts/keystore"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/common/math"
-	"github.com/HPISTechnologies/evm/crypto"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/accounts/keystore"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/common/math"
+	"github.com/arcology-network/evm/crypto"
 )
 
 // SignerUIAPI implements methods Clef provides for a UI to query, in the bidirectional communication

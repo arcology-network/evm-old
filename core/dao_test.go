@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/consensus/ethash"
-	"github.com/HPISTechnologies/evm/core/rawdb"
-	"github.com/HPISTechnologies/evm/core/vm"
-	"github.com/HPISTechnologies/evm/params"
+	"github.com/arcology-network/evm/consensus/ethash"
+	"github.com/arcology-network/evm/core/rawdb"
+	"github.com/arcology-network/evm/core/vm"
+	"github.com/arcology-network/evm/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

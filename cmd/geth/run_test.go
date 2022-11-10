@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/internal/cmdtest"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/internal/cmdtest"
+	"github.com/arcology-network/evm/rpc"
 	"github.com/docker/docker/pkg/reexec"
 )
 

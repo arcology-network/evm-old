@@ -21,10 +21,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/ethdb/memorydb"
 	"github.com/VictoriaMetrics/fastcache"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/ethdb/memorydb"
 )
 
 func copyDestructs(destructs map[common.Hash]struct{}) map[common.Hash]struct{} {

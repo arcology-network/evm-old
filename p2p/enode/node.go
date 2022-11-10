@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/HPISTechnologies/evm/p2p/enr"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/p2p/enr"
+	"github.com/arcology-network/evm/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

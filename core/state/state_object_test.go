@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

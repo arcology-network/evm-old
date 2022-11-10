@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/core"
+	"github.com/arcology-network/evm/core"
 	"github.com/davecgh/go-spew/spew"
 )
 

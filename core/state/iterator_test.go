@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

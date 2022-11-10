@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 	"github.com/davecgh/go-spew/spew"
 )
 

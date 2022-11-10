@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 // Strings represents s slice of strs.

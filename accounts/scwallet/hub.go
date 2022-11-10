@@ -41,10 +41,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/event"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/event"
+	"github.com/arcology-network/evm/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/HPISTechnologies/evm"
-	"github.com/HPISTechnologies/evm/common"
+	ethereum "github.com/arcology-network/evm"
+	"github.com/arcology-network/evm/common"
 )
 
 // Subscription represents an event subscription where events are

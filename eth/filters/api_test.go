@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

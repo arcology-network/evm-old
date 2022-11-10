@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

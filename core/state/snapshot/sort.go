@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/HPISTechnologies/evm/common"
+	"github.com/arcology-network/evm/common"
 )
 
 // hashes is a helper to implement sort.Interface.

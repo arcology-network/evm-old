@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/p2p/enode"
 )
 
 const jsonIndent = "    "

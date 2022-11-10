@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/forkid"
-	"github.com/HPISTechnologies/evm/core/types"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/forkid"
+	"github.com/arcology-network/evm/core/types"
+	"github.com/arcology-network/evm/rlp"
 )
 
 // Constants to match up protocol versions and messages

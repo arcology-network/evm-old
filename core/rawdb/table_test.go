@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/arcology-network/evm/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

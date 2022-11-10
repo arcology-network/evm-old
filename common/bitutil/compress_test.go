@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common/hexutil"
+	"github.com/arcology-network/evm/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

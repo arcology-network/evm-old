@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/HPISTechnologies/evm/cmd/utils"
-	"github.com/HPISTechnologies/evm/internal/debug"
-	"github.com/HPISTechnologies/evm/internal/flags"
+	"github.com/arcology-network/evm/cmd/utils"
+	"github.com/arcology-network/evm/internal/debug"
+	"github.com/arcology-network/evm/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

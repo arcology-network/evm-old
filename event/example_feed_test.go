@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/event"
+	"github.com/arcology-network/evm/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

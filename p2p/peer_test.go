@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/p2p/enr"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/p2p/enr"
 )
 
 var discard = Protocol{

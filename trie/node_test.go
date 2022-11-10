@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

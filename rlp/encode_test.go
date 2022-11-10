@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common/math"
+	"github.com/arcology-network/evm/common/math"
 )
 
 type testEncoder struct {

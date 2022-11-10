@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/HPISTechnologies/evm/light"
+	"github.com/arcology-network/evm/light"
 )
 
 var (

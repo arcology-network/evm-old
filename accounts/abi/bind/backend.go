@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/HPISTechnologies/evm"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/core/types"
+	ethereum "github.com/arcology-network/evm"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/core/types"
 )
 
 var (

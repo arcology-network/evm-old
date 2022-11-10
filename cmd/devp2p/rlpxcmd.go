@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/HPISTechnologies/evm/cmd/devp2p/internal/ethtest"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/internal/utesting"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/p2p/rlpx"
-	"github.com/HPISTechnologies/evm/rlp"
+	"github.com/arcology-network/evm/cmd/devp2p/internal/ethtest"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/internal/utesting"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/p2p/rlpx"
+	"github.com/arcology-network/evm/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

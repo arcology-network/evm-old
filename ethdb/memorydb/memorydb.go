@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/ethdb"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/ethdb"
 )
 
 var (

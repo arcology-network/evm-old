@@ -30,17 +30,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/HPISTechnologies/evm/common/hexutil"
-	"github.com/HPISTechnologies/evm/common/mclock"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/p2p/enode"
+	"github.com/arcology-network/evm/common/hexutil"
+	"github.com/arcology-network/evm/common/mclock"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/p2p/enode"
 	"github.com/davecgh/go-spew/spew"
 )
 
 // To regenerate discv5 test vectors, run
 //
-//     go test -run TestVectors -write-test-vectors
-//
+//	go test -run TestVectors -write-test-vectors
 var writeTestVectorsFlag = flag.Bool("write-test-vectors", false, "Overwrite discv5 test vectors in testdata/")
 
 var (

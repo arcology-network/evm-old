@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/HPISTechnologies/evm/accounts/keystore"
-	"github.com/HPISTechnologies/evm/log"
+	"github.com/arcology-network/evm/accounts/keystore"
+	"github.com/arcology-network/evm/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

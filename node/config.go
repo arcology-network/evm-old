@@ -26,17 +26,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/HPISTechnologies/evm/accounts"
-	"github.com/HPISTechnologies/evm/accounts/external"
-	"github.com/HPISTechnologies/evm/accounts/keystore"
-	"github.com/HPISTechnologies/evm/accounts/scwallet"
-	"github.com/HPISTechnologies/evm/accounts/usbwallet"
-	"github.com/HPISTechnologies/evm/common"
-	"github.com/HPISTechnologies/evm/crypto"
-	"github.com/HPISTechnologies/evm/log"
-	"github.com/HPISTechnologies/evm/p2p"
-	"github.com/HPISTechnologies/evm/p2p/enode"
-	"github.com/HPISTechnologies/evm/rpc"
+	"github.com/arcology-network/evm/accounts"
+	"github.com/arcology-network/evm/accounts/external"
+	"github.com/arcology-network/evm/accounts/keystore"
+	"github.com/arcology-network/evm/accounts/scwallet"
+	"github.com/arcology-network/evm/accounts/usbwallet"
+	"github.com/arcology-network/evm/common"
+	"github.com/arcology-network/evm/crypto"
+	"github.com/arcology-network/evm/log"
+	"github.com/arcology-network/evm/p2p"
+	"github.com/arcology-network/evm/p2p/enode"
+	"github.com/arcology-network/evm/rpc"
 )
 
 const (
